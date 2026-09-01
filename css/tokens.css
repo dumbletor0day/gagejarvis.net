@@ -1,0 +1,19 @@
+:root {
+  --bg: #0a0e0c;
+  --bg-elev: #101612;
+  --text: #d7e0d8;
+  --muted: #8f9c93;
+  --accent: #6fdb9a;
+  --accent-dim: rgba(111, 219, 154, 0.12);
+  --line: #1c2820;
+  --grid: rgba(111, 219, 154, 0.045);
+
+  --sans: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --max: 40rem;
+  --pad: clamp(1.25rem, 4vw, 2.25rem);
+  --radius: 4px;
+
+  --ease: 160ms ease;
+}

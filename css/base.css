@@ -43,7 +43,10 @@ svg {
 h1,
 h2,
 p,
-ul {
+ul,
+dl,
+dt,
+dd {
   margin: 0;
 }
 

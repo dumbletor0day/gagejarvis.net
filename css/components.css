@@ -168,8 +168,28 @@ h1 {
 
 .block p + p,
 .block p + ul,
+.block p + dl,
 .block ul + p {
   margin-top: 0.85rem;
+}
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1.35rem;
+}
+
+.offers dt {
+  margin-bottom: 0.35rem;
+  font-family: var(--mono);
+  font-size: 0.92rem;
+  color: var(--text);
+}
+
+.offers dd {
+  max-width: 36rem;
+  color: var(--muted);
 }
 
 .block ul {
